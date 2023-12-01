@@ -15,3 +15,16 @@ code {
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.header_nav {
+  line-height: 50px;
+}
+.header_nav a {
+  text-decoration: none;
+  color: aliceblue;
+  padding: 5px 20px;
+}
+.header_nav a:hover {
+  background-color: brown;
+  border-radius: 50px;
+}
